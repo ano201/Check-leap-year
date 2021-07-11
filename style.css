@@ -1,0 +1,40 @@
+body {
+    animation: background 30s infinite;
+    background: salmon;
+}
+div{
+  text-align: center;
+  color: #FF004E;
+  margin-top: 10px;
+}
+input{
+  border:5px solid #FF004E;
+  border-radius: 0 10px 0 10px;
+  margin: auto;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #FF004E;
+  outline: none;
+}
+button{
+  background: none;
+  border:5px solid #FF004E;
+  border-radius: 0 10px 0 10px;
+  font-weight: bolder;
+  font-size: 25px;
+  color: #FF004E;
+  outline: none;
+}
+@keyframes background{
+  10%{background: white}
+  20%{background: #FF047D;}
+  30%{background: #5104FF;}
+  40%{background: #04D7FF;}
+  50%{background: #04FF5A;}
+  60%{background: #FFD504;}
+  70%{background: #E508FF;}
+  80%{background: #FF0876;}
+  90%{background: #FF0404;}
+  100%{background: #000000;}
+}
